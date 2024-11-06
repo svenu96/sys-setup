@@ -74,7 +74,7 @@ echo ".cfg" >.gitignore
 if [[ -d $HOME/.cfg ]]; then
   rm -rf $HOME/.cfg
 fi
-git clone --bare https://github.com/linem-davton/.cfg $HOME/.cfg
+git clone --bare https://github.com/svenu96/.cfg $HOME/.cfg
 
 # backup the dotfiles that already exit
 mkdir -p $HOME/.config-backup/.config/fish/functions $HOME/.config-backup/.config/clangd $HOME/.config-backup/.config/nvim/lua/plugins/dap $HOME/.config-backup/.config/nvim/lua/plugins/lsp \
